@@ -1,0 +1,11 @@
+Plan Name: Smart Plus
+Daily Data: 2GB
+Post Limit Speed: 64kbps
+Validity: 28 days
+Roaming Charges: ₹2/MB
+FUP: Speed reduced after quota.
+
+Plan Name: Corporate Gold
+Monthly Data: 100GB
+Voice: Unlimited
+International Roaming: Enabled
