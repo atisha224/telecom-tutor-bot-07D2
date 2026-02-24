@@ -1,6 +1,6 @@
-# 📡 TeleIQ – AI Powered Telecom Tutor Bot
+# 📡 TeleQuiz AI – AI Powered Telecom Tutor Bot
 
-TeleIQ is an AI-driven telecom training assistant that transforms static telecom documents into an interactive learning platform. It uses semantic search and vector embeddings to generate contextual quizzes and track staff learning progress.
+TeleQuiz AI is an AI-driven telecom training assistant that transforms static telecom documents into an interactive learning platform. It uses semantic search and vector embeddings to generate contextual quizzes and track staff learning progress.
 
 ---
 
@@ -8,7 +8,7 @@ TeleIQ is an AI-driven telecom training assistant that transforms static telecom
 
 Telecom staff must understand complex topics like data plans, roaming policies, FUP rules, and billing systems. Traditional document-based training is static and difficult to retain.
 
-TeleIQ solves this by:
+TeleQuiz AI solves this by:
 
 - Converting telecom documents into embeddings  
 - Storing them in a vector database  
