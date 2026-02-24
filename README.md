@@ -1,97 +1,57 @@
-📘 TeleIQ – AI-Powered Telecom Tutor Bot
+# 📡 TeleIQ – AI Powered Telecom Tutor Bot
 
-TeleIQ is an AI-driven telecom training assistant designed to transform static telecom documentation into an interactive learning experience. It uses semantic search and vector embeddings to generate contextual quizzes and track staff learning progress.
+TeleIQ is an AI-driven telecom training assistant that transforms static telecom documents into an interactive learning platform. It uses semantic search and vector embeddings to generate contextual quizzes and track staff learning progress.
 
-🚀 Overview
+---
 
-Telecom organizations manage complex information such as:
+## 🚀 Overview
 
-Data plans
+Telecom staff must understand complex topics like data plans, roaming policies, FUP rules, and billing systems. Traditional document-based training is static and difficult to retain.
 
-Roaming policies
+TeleIQ solves this by:
 
-FUP (Fair Usage Policy)
+- Converting telecom documents into embeddings  
+- Storing them in a vector database  
+- Retrieving knowledge semantically  
+- Generating quizzes  
+- Providing explanations  
+- Tracking learning progress  
 
-Billing systems
+---
 
-Enterprise packages
+## 🏗️ Architecture
 
-Traditional document-based training is static and difficult to retain.
+- **Frontend:** Streamlit  
+- **Embeddings:** HuggingFace (`all-MiniLM-L6-v2`)  
+- **Vector DB:** FAISS  
+- **Backend:** Python  
+- **Progress Tracking:** Pandas  
 
-TeleIQ introduces an AI-powered tutor bot that:
+The system follows a Retrieval-Augmented Learning approach.
 
-Converts telecom documents into embeddings
+---
 
-Stores them in a vector database
+## 👥 User Roles
 
-Retrieves relevant knowledge semantically
+### 🔐 Admin
+- Upload telecom documents  
+- Manage training content  
 
-Generates quizzes
+### 👩‍💻 Staff
+- Dynamic login  
+- Attempt quizzes  
+- View progress dashboard  
 
-Provides explanations
+---
 
-Tracks learning progress
+## ✨ Features
 
-🏗️ System Architecture
+- Role-based access (Admin / Staff)  
+- Admin-only document upload  
+- Semantic search using FAISS  
+- Topic-based quiz generation  
+- Contextual explanations  
+- Learning progress dashboard  
+- Clean minimal UI  
 
-TeleIQ follows a Retrieval-Augmented Learning approach.
-
-Core Components
-
-Frontend (Streamlit)
-
-Role-based login
-
-Admin document upload
-
-Staff tutor interface
-
-Progress dashboard
-
-Embedding Engine (HuggingFace)
-
-Model: all-MiniLM-L6-v2
-
-Converts telecom text into vector embeddings
-
-Vector Database (FAISS)
-
-Stores embeddings
-
-Performs similarity search
-
-Quiz Engine
-
-Retrieves relevant telecom context
-
-Generates quiz questions
-
-👥 User Roles
-🔐 Admin
-
-Uploads telecom knowledge documents
-
-Controls training content
-
-👩‍💻 Staff
-
-Logs in dynamically
-
-Attempts quizzes
-
-Views learning progress
-
-🧠 AI Concepts Used
-
-Semantic Search
-
-Vector Similarity Matching
-
-Sentence Embeddings
-
-Retrieval-Augmented Generation (RAG) concept
-
-Role-Based Access Control
-Evaluates responses
-
-Tracks performance
+---
